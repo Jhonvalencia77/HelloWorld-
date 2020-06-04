@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>My webpage</title>
+
+    <style>
+
+      h1{
+        text-align: center;
+        border: 1px;
+        color: blue;
+      }
+
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 50%;
+
+      }
+
+      th,td{
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+
+      }
+
+      h2{
+        color:blue;
+      }
+
+    </style>
+
+
   </head>
+
   <body>
-    Hello World
+    <h1>Intereses</h1>
+    <div id="Table">
+      <table>
+        <tr>
+          <th>Video Juegos</th>
+          <th>Libros</th>
+          <th>Deportes</th>
+        </tr>
+        <tr>
+          <td>Call of Duty</td>
+          <td>El Psicoanalista</td>
+          <td>Tenis</td>
+        </tr>
+        <tr>
+          <td>War Zone</td>
+          <td>Mentes Sometidas</td>
+          <td>Basketball</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="Imagen">
+      <h2 class="parrafo">Imagen que lo describe</h2>
+      <img src="wallpaper2.png" height="200" width="400">
+    </div>
+
+    <p class="parrafo">Descubre los intereses de otra persona escribiendo su nombre en el siguiente formulario</p>
+
+    <form>
+        <input type="text" placeholder="Full Name" name="name">
+        <button>Submit!</button>
+    </form>
+
+
+
   </body>
 </html>
-  
